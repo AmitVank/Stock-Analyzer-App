@@ -1,0 +1,58 @@
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    }
+    table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    }
+    table tr:nth-child(even) {
+    background-color: #ffffff;
+    }
+    label{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        color: white;
+        font-weight: 700;
+        background-color: rgb(3, 3, 94);
+        //background-color: #4CAF50;
+        
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #456fa0;
+
+      }
+      #cbackimg {
+        padding-top: 10px;
+        background-image:url(/assets/dataprediction.jpg);
+        //background: lightblue;
+        background-position:center;
+        width:auto;
+        height:auto;
+    }
+
+
+      

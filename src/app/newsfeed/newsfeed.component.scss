@@ -1,0 +1,251 @@
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    }
+    table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    }
+    table tr:nth-child(even) {
+    background-color: #ffffff;
+    }
+    label{
+        width: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        font-family: 'Helvetica Neue Light',Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+        display: inline-block;
+        // border: 1px solid #ccc;
+        
+    }
+    input[type=text], select {
+        width: 15%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        font-family: 'Helvetica Neue Light',Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(3, 3, 94);
+        
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+
+      }
+      #cbackimg {
+        background-image:url(/assets/dataprediction.jpg);
+        //background: lightblue;
+        background-position:center;
+        width:auto;
+        height:auto;
+    }
+      
+      
+
+
+
+      
+    caption {
+      width: 1000px;
+      background-color:#314190;
+      color: #fff;
+      font-size: large;
+      font-weight: bold;
+      letter-spacing: .2em;
+    }
+   .subCaption {
+      background-color:#89898d;
+      color: black;
+      font-size: medium;
+      font-weight: bold;
+      letter-spacing: .1em;
+    }
+    
+    table.timecard thead th {
+      padding: 8px;
+      background-color:transparent;
+      font-size: large;
+      position: sticky;
+    }
+    
+    table.timecard thead th#thDay {
+      width: 40%;	
+    }
+    
+    table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+      width: 20%;
+    }
+    
+    table.timecard th, table.timecard td {
+      padding: 3px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #314190 #ccc;
+    }
+    
+    table.timecard td {
+      text-align: center;
+    }
+    
+    table.timecard tbody th {
+      text-align: left;
+      font-weight: normal;
+    }
+    table.timecard tbody {
+      overflow:auto; height: 270px;width: 1020px;
+    }
+    table.timecard tfoot {
+      font-weight: bold;
+      font-size: large;
+      background-color: #687886;
+      color: #fff;
+    }
+    
+    table.timecard tr.even {
+      background-color: #fde9d9;
+    }
+
+    input {
+      display:block;
+      width:100%;
+      margin:10px 0;
+      padding:10px;
+    }
+    .type-1 {
+      border-radius:10px;
+      border: 1px solid #eee;
+      transition: .3s border-color;
+    }
+    .type-1:hover {
+      border: 1px solid #aaa;
+    }
+    
+    .type-2 {
+      background-color: #fafafa;
+      border:0;
+      box-shadow:0 0 4px rgba(0,0,0,0.3);
+      transition: .3s box-shadow;
+    }
+    .type-2:hover {
+      box-shadow:0 0 4px rgba(0,0,0,0.5);
+    }
+    .scrollable-element {
+      border-top-color: red yellow;
+      
+    }
+
+    .styled-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .styled-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+    }
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+    .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    
+    .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+    
+    .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+    .styled-table tbody tr.active-row {
+      font-weight: bold;
+      color: #009879;
+    }
+    table, th , td {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table tr:nth-child(odd) {
+        background-color: #f2f2f2;
+        }
+        table tr:nth-child(even) {
+        background-color: #ffffff;
+        }
+        label{
+            width: 10%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            /* border: 1px solid #ccc; */
+            
+        }
+        input[type=text], select {
+            width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+          
+          input[type=submit] {
+            width: 10%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+    
+            background-color:#314190;
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color:#314190;
+    
+          }
+          
+          /* div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          } */
+    
+          table.timecard {
+            margin: auto;
+            width: 1000px;
+            border-collapse: collapse;
+            border: 1px solid #fff; /*for older IE*/
+            border-style: hidden;
+            
+          }
+          
+          table.timecard caption {
+            background-color:#314190;
+            color: #fff;
+            font-size: large;
+            font-weight: bold;
+            letter-spacing: .2em;
+          }

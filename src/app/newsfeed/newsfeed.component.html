@@ -1,0 +1,57 @@
+<!-- <div style="padding-left:16px"> 
+    <h2>Feed</h2>
+    <button (click) = "getMarketData()">Download Data</button>
+</div> -->
+<div id='cbackimg'>
+  <h3>Market Data Prediction - End Of Day</h3>
+
+
+
+  <label>From Date:</label><input  class="type-2" type="text" [(ngModel)]='fromDate' name="fromDate" placeholder="YYYY-MM-DD" ngModel>
+  <label>To Date:</label><input  class="type-2" type="text" [(ngModel)]='toDate' name="toDate" placeholder="YYYY-MM-DD" ngModel>
+
+  <br>
+  <!-- <label>Symbols:</label><input type="text" [(ngModel)]='symbols' name="symbols" placeholder="Symbols" ngModel> -->
+  <label>Symbols:</label>
+  <select type="number" [(ngModel)]="selectedSymbol">
+    <option *ngFor="let symbol of symbolArray" [ngValue]="symbol">{{symbol.name}}</option>
+  </select>
+
+
+
+
+  <label>Count:</label><input type="text"  class="type-2" [(ngModel)]='limit' name="limit" placeholder="Count" ngModel>
+  <br>
+  <input type="submit" value="Download" (click)="onClickSubmit()">
+
+  <caption>Market Data Prediction <br> {{tHeader}}</caption>
+  <div style="overflow:auto; height: 250px;width: 1020px;">
+    <table class="timecard">
+
+      <th *ngFor="let col of header">
+        {{col}}
+      </th>
+
+      <tr *ngFor="let row of indraDay">
+        <td *ngFor="let col of column">
+          {{row[col]}}
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>Following is the statastical anaylisis using R3 and Python.</h2>
+  <!--  -->
+  <br>
+  <h3>Stocks Price - Time Vs. Price</h3>
+  <img [src]="ImagePath" style="width: 1000px;height: 400px;">
+  <br>
+  <h3>Stocks Price - Raw Vs. Outlier Adjusted</h3>
+  <img [src]="ImagePath2" style="width: 1000px;height: 400px;">
+  <br>
+  <h3>Stocks Price - Outlier and seasonality</h3>
+  <img [src]="ImagePath3" style="width: 1000px;height: 400px;">
+  <br>
+  <h3>Overall Trend</h3>
+  <img [src]="ImagePath4" style="width: 1000px;height: 400px;">
+</div>

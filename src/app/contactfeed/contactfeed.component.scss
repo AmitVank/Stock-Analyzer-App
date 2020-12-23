@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue Light',Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  div#wrapperHeader {
+    width:100%;
+    height:200px; /* height of the background image? */
+    /* background:url(images/header.png) repeat-x 0 0; */
+    text-align:center;
+   }
+   
+   div#wrapperHeader div#header {
+    width:100%;
+    height:200px;
+    margin:0 auto;
+   }
+   
+   div#wrapperHeader div#header img {
+    widows: 100px;; /* the width of the logo image */
+    height:20px; /* the height of the logo image */
+    margin:0 auto;
+   }
+
+   .topleft {
+    position: absolute;
+    top: 14px;
+    left: 58px;
+    font-size: 37px;
+    color: floralwhite;
+  }
+  #cbackimg {
+    background-image:url(/assets/dataprediction.jpg);
+    //background: lightblue;
+    background-position:center;
+    width:auto;
+    height:auto;
+}
+
+.custfont{
+  font-family: Helvetica Neue Light, Helvetica, sans-serif;
+
+}
